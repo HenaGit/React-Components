@@ -8,6 +8,9 @@ In this course, we will learn react js by building TaskOPedia!
     •	Go to walmart
 Happy Coding!
 */
+function Header() {
+  return <h1>REACT COURSE</h1>;
+}
 function MainBody() {
   return (
     <div>
@@ -19,11 +22,14 @@ function MainBody() {
     </div>
   );
 }
+function Footer() {
+  return <p>Happy Coding!</p>;
+}
 root.render(
   <div>
+    <Header />
     <MainBody />
-    <MainBody />
-    <MainBody />
+    <Footer />
   </div>
 );
 
