@@ -6,8 +6,7 @@ export default function Student(props) {
         <div className="row border">
           <div className="col-2">
             <img
-              src={`https://ui-avatars.com/api/?name=${props.name}`}
-              className="w-100" alt='Henk'
+              src={props.headshot} className="w-100 py-2" alt='Henk'
             ></img>
           </div>
           <div className="col-10">
