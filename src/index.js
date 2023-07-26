@@ -29,10 +29,10 @@ function Footer() {
   return <p style={{ color: "gray", backgroundColor: "black" }}>Happy Coding!</p>;
 }
 root.render(
-  <div className="container">
+  <div className="">
     <Header />
     <MainBody />
-    <div className="row">Students Enrolled</div>
+    <div className="container row">Students Enrolled</div>
     <Student
       experience={11}
       name="Henok Gebrehiwot"
