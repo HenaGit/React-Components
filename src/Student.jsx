@@ -9,11 +9,12 @@ export default function Student(props) {
               src={props.headshot} className="w-100 py-2" alt='Henk'
             ></img>
           </div>
-          <div className="col-10">
+          <div className="col-8">
           {props.name}
             <br />
             Coding Experience {props.experience} years
           </div>
+          <div className="col-2">{props.children}</div>
         </div>
       </div>
     );
