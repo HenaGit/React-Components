@@ -1,13 +1,15 @@
+import React from "react";
 import Student from "./Components/Student/Student";
 import StudentReview from "./Components/Student/StudentReview";
-function MainBody() {
+class MainBody extends React.Component {
+  render() {
     const whatWeWillLearn = "React JS";
     const lectureCount = 3;
     return (
       <div style={{ minHeight: "70vh" }}>
         <p>
-          In this course, we will learn {whatWeWillLearn} by building TaskOPedia!{" "}
-          <br />
+          In this course, we will learn {whatWeWillLearn} by building
+          TaskOPedia! <br />
           Total Lecture - {lectureCount}
         </p>
         <ul>
@@ -40,6 +42,7 @@ function MainBody() {
       />
       </div>
     );
+      }
   }
   
   export default MainBody;
